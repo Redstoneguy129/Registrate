@@ -1,0 +1,66 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "seed": 0,
+      "biomes": [
+        {
+          "biome": "minecraft:plains",
+          "parameters": {
+            "altitude": 0.5,
+            "weirdness": 0.3,
+            "offset": 0,
+            "temperature": 1,
+            "humidity": 0
+          }
+        }
+      ]
+    },
+    "settings": {
+      "bedrock_roof_position": -10,
+      "bedrock_floor_position": 0,
+      "sea_level": 65,
+      "disable_mob_generation": false,
+      "structures": {
+        "structures": {}
+      },
+      "noise": {
+        "random_density_offset": true,
+        "density_factor": 1.0,
+        "density_offset": -0.46875,
+        "simplex_surface_noise": true,
+        "bottom_slide": {
+          "target": -30,
+          "size": 0,
+          "offset": 0
+        },
+        "size_horizontal": 1,
+        "size_vertical": 2,
+        "height": 256,
+        "sampling": {
+          "xz_scale": 0.9999999814507745,
+          "y_scale": 0.9999999814507745,
+          "xz_factor": 80.0,
+          "y_factor": 160.0
+        },
+        "top_slide": {
+          "target": -10,
+          "size": 3,
+          "offset": 0
+        }
+      },
+      "default_block": {
+        "Name": "minecraft:blackstone"
+      },
+      "default_fluid": {
+        "Name": "minecraft:lava",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    }
+  },
+  "type": "minecraft:overworld"
+}

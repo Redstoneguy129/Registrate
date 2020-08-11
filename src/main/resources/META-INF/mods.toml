@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+issueTrackerURL="https://github.com/Redstoneguy129/Registrate/issues"
+license="MIT"
+
+[[mods]]
+modId="registrate"
+version="${file.jarVersion}"
+displayName="Registrate"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://github.com/Redstoneguy129/Registrate"
+authors="Redstoneguy129"
+description="A modding API for the Forge Modloader "
+
+[[dependencies.registrate]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.registrate]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
